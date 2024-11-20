@@ -1,0 +1,102 @@
+
+.details-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #eee;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.movie-poster-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    display: block; /* Ensures no gaps around the image */
+}
+
+
+.movie-info {
+    padding: 20px;
+}
+
+.movie-info h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.movie-plot {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.movie-info p strong {
+    color: #fff;
+}
+
+
+.review-form {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.review-input,
+.rating-input {
+    background-color: #2a2a2a;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.review-input::placeholder,
+.rating-input::placeholder {
+    color: #bbb;
+}
+
+
+.reviews-list {
+    margin-top: 30px;
+}
+
+.review-card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #ddd;
+}
+
+.review-card p {
+    margin: 5px 0;
+}
+
+.review-card p strong {
+    color: #fff;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
